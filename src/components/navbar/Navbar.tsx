@@ -3,18 +3,18 @@ import { Link } from "react-router-dom"
 function Navbar() {
     return (
         <>
-            <div className='w-full bg-indigo-900 text-white
+            <div className='w-full bg-[#C9294B] text-white
                 flex justify-center py-4'>
             
                 <div className="container flex justify-between text-lg">
-                    Blog Pessoal
+                    Droga Raia
 
                     <div className='flex gap-4'>
-                        Postagens
+                        Produtos
                         <Link to='/categorias' className='hover:underline'>Categorias</Link>
-                        Cadastrar tema
+                        <Link to='/cadastroTema' className='hover:underline'>Cadastrar Categoria</Link>
+                        Minha sacola
                         Perfil
-                        Sair
                     </div>
                 </div>
             </div>
